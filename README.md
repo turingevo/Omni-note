@@ -10,6 +10,14 @@ In the face of text generation, image generation, image recognition, visual reco
 
 This solution aims to solve this pain point by integrating multiple large language models, speech models, and visual multimodal models through localized inference to create a fully functional AI editor.
 
+
+
+### arm TechSymposia Shenzhen 2024 
+https://live.photoplus.cn/live/pc/54153061/#/live
+
+<img src="https://github.com/user-attachments/assets/5799f765-1561-4677-9c93-2c772aae41fe" alt="arm ai 优秀奖" width="200" height="300">
+
+
 ## about
 | | |
 |-|-|
