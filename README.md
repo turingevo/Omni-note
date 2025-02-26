@@ -10,7 +10,7 @@ In the face of text generation, image generation, image recognition, visual reco
 
 This solution aims to solve this pain point by integrating multiple large language models, speech models, and visual multimodal models through localized inference to create a fully functional AI editor.
 
-#### 打工人福音，AI笔记软件,免费使用DeepSeek
+#### 打工人福音，AI笔记软件,免费使用
 一款本地化的AI应用！！！
 数据完全保存在本地！！！
 确保数据隐私安全！！！
