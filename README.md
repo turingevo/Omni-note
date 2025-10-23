@@ -52,7 +52,7 @@ https://live.photoplus.cn/live/pc/50790205/#/live
 
 
 
-## about
+## 关于我们
 | | |
 |-|-|
 |web | http://turingevo.com/
@@ -61,7 +61,7 @@ https://live.photoplus.cn/live/pc/50790205/#/live
 |huggingface | https://huggingface.co/turingevo
 
 
-## contact
+## 联系我们
 | | |
 |-|-|
 |email | wmx@turingevo.com 
