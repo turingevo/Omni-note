@@ -66,7 +66,7 @@ https://live.photoplus.cn/live/pc/50790205/#/live
 
 ## 🌐 About Us
 
-| Resource       | Link                                      |
+|        |                                       |
 |----------------|-------------------------------------------|
 | Website        | https://turingevo.com |
 | Blog           | https://turingevo.blog.csdn.net |
