@@ -1,4 +1,4 @@
-# AI-Editor
+# Omni-note
 一款全功能的AI笔记软件。
 
 现有的编辑器在面对文本生成、图像生成、图像识别、视觉识别以及语音识别等功能时，需要依赖多个外部工具，流程繁琐且不易于管理。
@@ -10,7 +10,7 @@ In the face of text generation, image generation, image recognition, visual reco
 
 This solution aims to solve this pain point by integrating multiple large language models, speech models, and visual multimodal models through localized inference to create a fully functional AI editor.
 
-#### 打工人福音，AI笔记软件,免费使用
+### 特点
 一款本地化的AI应用！！！
 数据完全保存在本地！！！
 确保数据隐私安全！！！
