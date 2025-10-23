@@ -45,18 +45,20 @@ C/S架构支持三重部署：
 ---
 
 ## 🏆 荣誉
-- **arm TechSymposia Shenzhen 2024**
+
+- **Arm 2024 人工智能创新应用大赛**
 https://live.photoplus.cn/live/pc/54153061/#/live
 
 
 <img width="20%" height="20%" alt="arm优秀奖" src="https://github.com/user-attachments/assets/2cf0f787-35ae-48a4-877b-952173c55fed" />
 
-- **intel 2025 AIGC** 
+- **Intel 2025 人工智能创新应用大赛** 
 https://live.photoplus.cn/live/pc/50790205/#/live
 
 <img width="20%" height="20%" alt="GBAC250800956841" src="https://github.com/user-attachments/assets/8cb7153b-3d58-43f8-8e34-bdfc458cf7de" />
 
 <img width="20%" height="20%" alt="GBAC250800852950" src="https://github.com/user-attachments/assets/da9ff319-a2e7-4d56-9d6f-228f0be92cad" />
+
 
 
 ---
