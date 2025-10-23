@@ -1,69 +1,47 @@
-
-# Omni-note
-
-> **A Multimodal AI-Powered Note-Taking Platform for Intelligent Knowledge Management and Collaborative Work**
-
-Omni-note is an all-in-one intelligent workspace that natively supports **text, speech, images, and video**. It offers **semantic Q&A over your personal knowledge base** and enables **collaborative workflows via MCP-based AI agents**, making it the ultimate platform for smart, secure, and efficient productivity.
+# Omni-note  
+Omni-note is a multimodal AI-powered note-taking application capable of processing data across multiple modalities—including text, speech, images, and video. It provides Q&A-based retrieval services over your personal note knowledge base and supports collaborative office workflows via multiple MCP-based AI agents, making it an all-in-one intelligent productivity platform.
 
 ---
 
-## ✨ Core Features: Smart, Efficient, Ready-to-Use
+**✨ Core Features: Smart, Efficient, Ready-to-Use**  
+- **1. Real-Time Content Generation**: Enter prompts in the frontend command bar; the backend intelligently schedules large models and streams responses for millisecond-level real-time interaction.  
+- **2. Vision-Driven Copywriting**: Leverages image recognition technology to accurately extract visual information (e.g., travel scenes) and generate high-quality, context-aware text on demand—empowering creative workflows.  
+- **3. Professional Speech Transcription**: Supports ultra-long audio recognition (e.g., meeting recordings or lecture notes) with high-precision transcription, fulfilling essential voice-to-text note-taking needs.  
+- **4. On-Device Instant Image Generation**: Requires no high-end hardware—efficient inference runs entirely on CPU to quickly generate large-size images, enabling lightweight creation anytime, anywhere.  
+- **5. Intelligent Knowledge Base Management**: Integrates note summarization, semantic search, and Q&A-based review. Retrieve information with one click and significantly boost knowledge reuse efficiency.  
+- **6. Extensible Agent Platform**: Built on an MCP (Multi-agent Collaboration Protocol)-based architecture, it supports a rich ecosystem of AI assistants (e.g., customer service, writing, data analysis) and flexibly adapts to both enterprise and personal needs.  
+- **7. Model Agnostic Switching**: Decouples notes from models, enabling seamless compatibility with mainstream services like OpenAI API. Switch models with one click and lower the barrier to entry.
 
-1. **Real-Time Content Generation**  
-   Type prompts in the command bar → backend intelligently routes to the best LLM → stream responses in milliseconds for seamless interaction.
 
-2. **Vision-Driven Copywriting**  
-   Leverage advanced image recognition (e.g., travel photos) to auto-generate high-quality, context-aware text—perfect for creative and marketing workflows.
+**🛡️ Core Advantages: Powerful, Secure, Effortless**  
+- **1. Robust Multimodal Processing**  
+  Supports all data types—text, speech, images, and video—with highly automated handling. Knowledge base Q&A is precise and efficient, making information retrieval and review effortless.  
 
-3. **Professional-Grade Speech-to-Text**  
-   Transcribe long-form audio (meetings, lectures) with high accuracy. Ideal for note-taking from voice recordings.
+- **2. Ultimate Security**  
+  **100% local deployment**: No internet connection required. End-to-end encryption from frontend to database ensures complete data privacy, eliminating cloud leakage risks—ideal for sensitive scenarios such as finance and healthcare.  
 
-4. **On-Device Image Generation**  
-   Generate high-resolution images **entirely on CPU**—no GPU required. Lightweight, private, and always available.
+- **3. Ultra-Low Compute Requirements**  
+  Runs smoothly on CPU-only devices using high-precision low-bit quantization technology, achieving **>50% faster inference**—even legacy hardware can efficiently handle AI tasks.  
 
-5. **Intelligent Knowledge Base**  
-   Auto-summarize notes, perform semantic search, and review via Q&A. Retrieve insights instantly and reuse knowledge effortlessly.
+- **4. Flexible Deployment Architecture**  
+  Client-Server (C/S) architecture supports three deployment modes:  
+    - Personal Computer: Single-machine private deployment—install and use immediately.  
+    - Local Area Network (LAN): Enterprise intranet solution for multi-user collaborative office work.  
+    - Cloud Collaboration: Hybrid edge-cloud deployment with cross-platform support for phones, tablets, and computers—ensuring seamless data sync.  
 
-6. **Extensible AI Agent Platform**  
-   Built on the **MCP (Multi-agent Collaboration Protocol)**, Omni-note supports plug-and-play AI assistants (e.g., customer service, writing, data analysis) for personalized or enterprise use.
+- **5. High Extensibility**  
+  Extend AI capabilities via the MCP protocol (e.g., intelligent recruitment, data analysis, financial reporting). Switch freely by use case—no development required.  
 
-7. **Model Agnostic Architecture**  
-   Decoupled note and model layers allow one-click switching between backends (e.g., OpenAI API, local LLMs), lowering adoption barriers.
+- **6. Standardized API Compatibility**  
+  Unified interfaces compatible with industry-leading services for seamless ecosystem integration:
 
----
-
-## 🛡️ Key Advantages: Powerful, Secure, Flexible
-
-### 1. **Full Multimodal Intelligence**  
-Handle text, audio, images, and video in one place. Automate ingestion, indexing, and retrieval—your knowledge is always organized and queryable.
-
-### 2. **End-to-End Privacy & Security**  
-✅ **100% offline/local deployment**  
-✅ End-to-end encryption (frontend to database)  
-✅ Zero cloud dependency — ideal for sensitive domains like **finance, healthcare, and government**.
-
-### 3. **Ultra-Low Hardware Requirements**  
-Runs smoothly on **CPU-only machines** using high-precision low-bit quantization. Achieves **>50% faster inference**—even on older devices.
-
-### 4. **Flexible Deployment Options**  
-Supports three deployment modes via C/S architecture:
-- **Personal**: Install on your laptop for private use.
-- **LAN**: Deploy on internal enterprise network for team collaboration.
-- **Hybrid Cloud**: Sync across devices (PC, tablet, phone) with optional cloud coordination.
-
-### 5. **Highly Extensible via MCP**  
-Add new AI capabilities (e.g., recruitment screening, financial reporting, data analytics) **without coding**—just plug in MCP-compatible agents.
-
-### 6. **Standardized API Compatibility**  
-Seamlessly integrates with mainstream AI ecosystems:
-
-| Module               | API Standard                     |
-|----------------------|----------------------------------|
-| Vision-Language Model| OpenAI API format                |
-| Speech Recognition   | FUNASR API format                |
-| Image Generation     | Stable Diffusion API format      |
-| Embedding Model      | OpenAI Embedding API format      |
-| Reranker             | Jina AI Rerank API format        |
+| Functional Module       | API Standard               |
+|-------------------------|----------------------------|
+| Vision-Language    | OpenAI API format          |
+| Speech Recognition      | FUNASR API format          |
+| Image Generation        | Stable Diffusion API format|
+| Embedding          | OpenAI Embedding API format|
+| Reranker           | Jina AI Rerank API format  |
 
 ---
 
@@ -71,12 +49,14 @@ Seamlessly integrates with mainstream AI ecosystems:
 
 - **ARM TechSymposia Shenzhen 2024**  
   https://live.photoplus.cn/live/pc/54153061/#/live
-  https://github.com/user-attachments/assets/2cf0f787-35ae-48a4-877b-952173c55fed
+<img width="20%" height="20%" alt="arm优秀奖" src="https://github.com/user-attachments/assets/2cf0f787-35ae-48a4-877b-952173c55fed" />
 
 - **Intel 2025 AIGC Innovation Challenge**  
 https://live.photoplus.cn/live/pc/50790205/#/live
-https://github.com/user-attachments/assets/8cb7153b-3d58-43f8-8e34-bdfc458cf7de
-https://github.com/user-attachments/assets/da9ff319-a2e7-4d56-9d6f-228f0be92cad
+
+<img width="20%" height="20%" alt="GBAC250800956841" src="https://github.com/user-attachments/assets/8cb7153b-3d58-43f8-8e34-bdfc458cf7de" />
+
+<img width="20%" height="20%" alt="GBAC250800852950" src="https://github.com/user-attachments/assets/da9ff319-a2e7-4d56-9d6f-228f0be92cad" />
 
 ---
 
@@ -84,9 +64,9 @@ https://github.com/user-attachments/assets/da9ff319-a2e7-4d56-9d6f-228f0be92cad
 
 | Resource       | Link                                      |
 |----------------|-------------------------------------------|
-| Website        | http://turingevo.com |
+| Website        | https://turingevo.com |
 | Blog           | https://turingevo.blog.csdn.net |
-| GitHub Org     | https://github.com/turingevo)|
+| GitHub Org     | https://github.com/turingevo|
 | Hugging Face   | https://huggingface.co/turingevo |
 
 ---
