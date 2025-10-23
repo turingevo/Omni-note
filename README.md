@@ -33,10 +33,23 @@ C/S架构支持三重部署： - 个人电脑：单机私有化，即装即用�
 重排模型	 | Jina AI Rerank API格式
 
 
-### arm TechSymposia Shenzhen 2024 
+### 荣誉
+arm TechSymposia Shenzhen 2024 
 https://live.photoplus.cn/live/pc/54153061/#/live
 
-<img src="https://github.com/user-attachments/assets/5799f765-1561-4677-9c93-2c772aae41fe" alt="arm ai 优秀奖" width="200" height="300">
+<!-- <img src="https://github.com/user-attachments/assets/5799f765-1561-4677-9c93-2c772aae41fe" alt="arm ai 优秀奖" width="200" height="300"> -->
+
+<img width="20%" height="20%" alt="arm优秀奖" src="https://github.com/user-attachments/assets/2cf0f787-35ae-48a4-877b-952173c55fed" />
+
+intel 2025 AIGC 
+https://live.photoplus.cn/live/pc/50790205/#/live
+
+<img width="20%" height="20%" alt="GBAC250800956841" src="https://github.com/user-attachments/assets/8cb7153b-3d58-43f8-8e34-bdfc458cf7de" />
+
+<img width="20%" height="20%" alt="GBAC250800852950" src="https://github.com/user-attachments/assets/da9ff319-a2e7-4d56-9d6f-228f0be92cad" />
+
+
+
 
 
 ## about
