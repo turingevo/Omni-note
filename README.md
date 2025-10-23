@@ -1,33 +1,36 @@
 # Omni-note
 Omni-note 是一款多模态的AI笔记，能处理文本、语音、图片、视频等多种模态的数据，可以提供笔记知识库的问答检索服务，可以提供多种MCP智能体协同办公的服务，是一个一站式的智能化办公平台。
 
-A full-featured AI editor.
+**核心功能：智能高效，开箱即用**
+- 1 实时内容生成: 前端命令框输入提示词，后端智能调度大模型，流式输出响应，实现毫秒级实时交互。
+- 2 视觉驱动文案创作: 基于图像识别技术，精准提取图片信息（如旅游场景），按需生成高质量文案，赋能创意办公。
+- 3 专业语音转写: 支持超长音频识别（会议录音/课堂笔记），高精度转写文字，满足笔记录音场景的刚需。
+- 4 本地即时创图: 无需高算力设备，纯CPU即可高效推理，快速生成大尺寸图像，随时随地实现轻量化创作。
+- 5 智能知识库管理: 集成笔记总结、语义化查询与问答复习功能，一键检索资料，提升知识复用效率。
+- 6 可扩展智能体平台: 基于MCP协议的可扩展智能体架构，支持丰富的AI助手扩展（如客服/写作/数据分析），灵活适配企业或个人需求。
+- 7 模型自由切换: 笔记与模型解耦设计，无缝兼容OpenAI API等主流服务，一键切换模型，降低使用门槛。
+  
+**核心优势：强大安全，得心应手**
+- 1 强大多模态处理
+支持文本、语音、图片、视频全类型数据，高度自动化处理；知识库问答精准高效，资料查找与复习便捷无忧。
+- 2 极致安全保障
+100%本地化部署: 无需联网，数据库与前端端到端加密，数据完全私有，杜绝云端泄露风险，适合敏感场景（如金融、医疗）。
+- 3 超低算力需求
+纯CPU即可流畅运行，基于高精度低比特量化技术，推理速度提升50%+，老旧设备也能高效处理AI任务。
+- 4 灵活部署架构
+C/S架构支持三重部署： - 个人电脑：单机私有化，即装即用； - 局域网：企业内网方案，多人协同办公； - 云端协同：端云混合部署，跨平台适配手机/平板/电脑，数据无缝同步。
+- 5 高度可扩展性
+通过基于MCP协议扩展AI能力（如智能招聘、数据分析、财务报表），按场景自由切换，无需开发。
+- 6 标准化API兼容
+统一接口适配行业主流服务，无缝集成现有生态:
 
-In the face of text generation, image generation, image recognition, visual recognition and speech recognition, the existing editors need to rely on multiple external tools, and the process is cumbersome and not easy to manage. 
-
-This solution aims to solve this pain point by integrating multiple large language models, speech models, and visual multimodal models through localized inference to create a fully functional AI editor.
-
-### 特点
-一款本地化的AI应用！！！
-数据完全保存在本地！！！
-确保数据隐私安全！！！
-支持 linux x64 / win x64系统 ,其它系统定制——请联系 wmx@turingevo.com
-需要联网注册
-
-### 方案优势：
-AI提供高效的办公方式，解放生产力
-采用便捷的交互方式
-采用markdown语法丰富的表示
-端侧推理，降低云端依赖,数据隐私安全
-智能化：大语言模型交互、文生图、图文理解、文生视频、视频理解、语音识别
-智能体应用：智能体和智能体工作流的应用，专业领域的智能化定制方案：
-  1 智能文案生成、绘画艺术、音乐
-  2 智能的办公图表、可视化分析、趋势预测等等
-  3 录音、视频分析生成笔记，提炼总结
-  4 本地知识+RAG智能考试系统，提高学习效率
-  5 智能可视化演示：代码算法、数学、化学、物理等场景的可视化交互，比文字更直观生动
-  6 智能纠错：解题、口语发音等等
-
+功能模块	| API标准
+|-|-|
+视觉语言模型 |	OpenAI API格式
+语音识别	 | FUNASR API格式
+图像生成	 | Stable Diffusion API格式
+嵌入模型	 | OpenAI Embedding API格式
+重排模型	 | Jina AI Rerank API格式
 
 
 ### arm TechSymposia Shenzhen 2024 
