@@ -51,11 +51,11 @@ Omni-note is a multimodal AI-powered note-taking application capable of processi
 
 ## 🏆 Recognitions
 
-- **ARM TechSymposia Shenzhen 2024**  
+- **Arm 2024 AI Innovation Application Contest**  
   https://live.photoplus.cn/live/pc/54153061/#/live
 <img width="20%" height="20%" alt="arm优秀奖" src="https://github.com/user-attachments/assets/2cf0f787-35ae-48a4-877b-952173c55fed" />
 
-- **Intel 2025 AIGC Innovation Challenge**  
+- **Intel 2025 AI Innovation Application Contest**  
 https://live.photoplus.cn/live/pc/50790205/#/live
 
 <img width="20%" height="20%" alt="GBAC250800956841" src="https://github.com/user-attachments/assets/8cb7153b-3d58-43f8-8e34-bdfc458cf7de" />
