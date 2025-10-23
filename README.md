@@ -61,7 +61,7 @@ https://live.photoplus.cn/live/pc/50790205/#/live
 ## 🌐 关于我们
 | | |
 |-|-|
-|web | http://turingevo.com
+|web | https://turingevo.com
 |blog | https://turingevo.blog.csdn.net
 |org | https://github.com/turingevo
 |huggingface | https://huggingface.co/turingevo
