@@ -2,79 +2,116 @@
 [![English](https://img.shields.io/badge/lang-English-blue)](README.md)
 [![中文](https://img.shields.io/badge/语言-中文-red)](README_zh.md)
 
-# Omni-note  
-Omni-note is a multimodal AI-powered note-taking application capable of processing data across multiple modalities—including text, speech, images, and video. It provides Q&A-based retrieval services over your personal note knowledge base and supports collaborative office workflows via multiple MCP-based AI agents, making it an all-in-one intelligent productivity platform.
+# OmniNote — Your Local AI Knowledge Brain
+
+> **Multimodal Notes × Graph RAG × 9 Output Engines × MCP Agents**
+> 100% local deployment. Your data never leaves your machine.
 
 ---
 
-**✨ Core Features: Smart, Efficient, Ready-to-Use**  
-- **1. Real-Time Content Generation**: Enter prompts in the frontend command bar; the backend intelligently schedules large models and streams responses for millisecond-level real-time interaction.  
-- **2. Vision-Driven Copywriting**: Leverages image recognition technology to accurately extract visual information (e.g., travel scenes) and generate high-quality, context-aware text on demand—empowering creative workflows.  
-- **3. Professional Speech Transcription**: Supports ultra-long audio recognition (e.g., meeting recordings or lecture notes) with high-precision transcription, fulfilling essential voice-to-text note-taking needs.  
-- **4. On-Device Instant Image Generation**: Requires no high-end hardware—efficient inference runs entirely on CPU to quickly generate large-size images, enabling lightweight creation anytime, anywhere.  
-- **5. Intelligent Knowledge Base Management**: Integrates note summarization, semantic search, and Q&A-based review. Retrieve information with one click and significantly boost knowledge reuse efficiency.  
-- **6. Extensible Agent Platform**: Built on an MCP (Multi-agent Collaboration Protocol)-based architecture, it supports a rich ecosystem of AI assistants (e.g., customer service, writing, data analysis) and flexibly adapts to both enterprise and personal needs.  
-- **7. Model Agnostic Switching**: Decouples notes from models, enabling seamless compatibility with mainstream services like OpenAI API. Switch models with one click and lower the barrier to entry.
+## Why OmniNote?
 
+| | OmniNote | Traditional Notes | Cloud AI Notes |
+|---|:---:|:---:|:---:|
+| Data Privacy | ✅ 100% local, E2E encrypted | ✅ Local storage | ❌ Uploaded to cloud |
+| Multimodal | ✅ Text / Image / Audio / Video | ❌ Text only | ⚠️ Partial |
+| Knowledge Graph | ✅ Graph RAG triple fusion | ❌ None | ❌ None |
+| Structured Output | ✅ 9 engines (reports, mindmaps, PPT…) | ❌ None | ⚠️ Limited |
+| AI Agents | ✅ MCP protocol, infinite extensions | ❌ None | ❌ None |
+| Hardware | ✅ Runs on CPU-only | ✅ Low | — |
 
-**🛡️ Core Advantages: Powerful, Secure, Effortless**  
-- **1. Robust Multimodal Processing**  
-  Supports all data types—text, speech, images, and video—with highly automated handling. Knowledge base Q&A is precise and efficient, making information retrieval and review effortless.  
+---
 
-- **2. Ultimate Security**  
-  **100% local deployment**: No internet connection required. End-to-end encryption from frontend to database ensures complete data privacy, eliminating cloud leakage risks—ideal for sensitive scenarios such as finance and healthcare.  
+## ✨ Core Capabilities
 
-- **3. Ultra-Low Compute Requirements**  
-  Runs smoothly on CPU-only devices using high-precision low-bit quantization technology, achieving **>50% faster inference**—even legacy hardware can efficiently handle AI tasks.  
+### 🧠 Graph RAG Knowledge Base
 
-- **4. Flexible Deployment Architecture**  
-  Client-Server (C/S) architecture supports three deployment modes:  
-    - Personal Computer: Single-machine private deployment—install and use immediately.  
-    - Local Area Network (LAN): Enterprise intranet solution for multi-user collaborative office work.  
-    - Cloud Collaboration: Hybrid edge-cloud deployment with cross-platform support for phones, tablets, and computers—ensuring seamless data sync.  
+Triple-fusion retrieval: **BM25 keywords + Vector embeddings + Knowledge graph**, combined with entity extraction and community clustering. Your notes don't just *store* information — they *understand* it.
 
-- **5. High Extensibility**  
-  Extend AI capabilities via the MCP protocol (e.g., intelligent recruitment, data analysis, financial reporting). Switch freely by use case—no development required.  
+- Adaptive chunking (parent-child hierarchy)
+- Multi-KB isolation & management
+- ReAct Agent for intelligent multi-step reasoning
 
-- **6. Standardized API Compatibility**  
-  Unified interfaces compatible with industry-leading services for seamless ecosystem integration:
+### 📝 9 Structured Output Engines
 
-| Functional Module       | API Standard               |
-|-------------------------|----------------------------|
-| Vision-Language    | OpenAI API format          |
-| Speech Recognition      | FUNASR API format          |
-| Image Generation        | Stable Diffusion API format|
-| Embedding          | OpenAI Embedding API format|
-| Reranker           | Jina AI Rerank API format  |
+Transform knowledge base content into actionable deliverables with one click:
+
+| Engine | Output | Engine | Output |
+|--------|--------|--------|--------|
+| 📊 Research Report | Markdown long-form | 🗺️ Mind Map | Markmap visualization |
+| 🃏 Flashcards | Study cards | 📋 Quiz | Self-assessment |
+| 📰 Infographic | Visual poster | 📖 Wiki | Knowledge pages |
+| 📑 PPT Outline | .pptx presentation | 🎙️ Podcast | Audio (planned) |
+| 🎬 Video | Video (planned) | | |
+
+### 🤖 MCP Agent Platform
+
+Built on the MCP (Model Context Protocol) — connect weather, train tickets, Excel, and any third-party tool through a single conversational interface.
+
+### 🔀 Model-Agnostic Design
+
+Notes are fully decoupled from models. Switch providers with one click:
+
+| Capability | API Standard | Default Model |
+|------------|--------------|---------------|
+| Vision-Language | OpenAI Chat | Qwen3.5-4B |
+| Embedding | OpenAI Embedding | Qwen3-Embedding-0.6B |
+| Reranker | Jina Rerank | Qwen3-Reranker-0.6B |
+| Image Generation | Stable Diffusion | Tiny-SD |
+| Speech Recognition | FunASR | Paraformer-large |
+
+---
+
+## 🛡️ Security & Performance
+
+- **100% Local** — No internet required. SQLCipher end-to-end encryption. Your data stays private.
+- **CPU-Only Inference** — Low-bit quantization delivers **50%+ faster inference**. Even old hardware runs AI smoothly.
+- **Flexible Deployment** — Single machine / LAN multi-user / Docker containerized.
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Extract
+tar -xf omni-note-linux-x64.tar.xz
+
+# Launch
+chmod a+x ./OmniNote && ./OmniNote
+
+# Open browser
+open http://localhost:7000
+```
+
+See [📖 Quick Start Guide](user/user-guide/quick-start.md) for full deployment instructions.
 
 ---
 
 ## 🏆 Recognitions
 
-- **Arm 2024 AI Innovation Application Contest**  
-  https://live.photoplus.cn/live/pc/54153061/#/live
-<img width="20%" height="20%" alt="arm优秀奖" src="https://github.com/user-attachments/assets/2cf0f787-35ae-48a4-877b-952173c55fed" />
-
-- **Intel 2025 AI Innovation Application Contest**  
-https://live.photoplus.cn/live/pc/50790205/#/live
-
-<img width="20%" height="20%" alt="GBAC250800956841" src="https://github.com/user-attachments/assets/8cb7153b-3d58-43f8-8e34-bdfc458cf7de" />
-
-<img width="20%" height="20%" alt="GBAC250800852950" src="https://github.com/user-attachments/assets/da9ff319-a2e7-4d56-9d6f-228f0be92cad" />
+- **Arm 2024 AI Innovation Application Contest — Excellence Award**
+- **Intel 2025 AI Innovation Application Contest — Winner Award**
+- **Lenovo Title Sponsor Special Award**
+- **Qualcomm Snapdragon AI Contest — Excellence Award**
 
 ---
 
-## 🌐 About Us
+## 📚 Documentation
 
-|        |                                       |
-|----------------|-------------------------------------------|
-| Website        | https://turingevo.com |
-| Blog           | https://turingevo.blog.csdn.net |
-| GitHub Org     | https://github.com/turingevo|
-| Hugging Face   | https://huggingface.co/turingevo |
+### 👤 User Docs ([`user/`](user/))
+
+| Directory | Content |
+|-----------|---------|
+| [`user/user-guide/`](user/user-guide/) | [Quick Start](user/user-guide/quick-start.md) · [Nginx Deploy](user/user-guide/nginx.md) · [PPT Templates](user/user-guide/ppt-templates.md) |
 
 ---
 
-## 📬 Contact Us
+## 🌐 Connect
 
-- **Email**: [wmx@turingevo.com](mailto:wmx@turingevo.com)
+| | |
+|---|---|
+| 🌍 Website | https://turingevo.com |
+| 📝 Blog | https://turingevo.blog.csdn.net |
+| 💻 GitHub | https://github.com/turingevo |
+| 🤗 Hugging Face | https://huggingface.co/turingevo |
+| 📧 Email | wmx@turingevo.com |
