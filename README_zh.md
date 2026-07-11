@@ -103,25 +103,7 @@ open http://localhost:7000
 | 目录 | 内容 |
 |------|------|
 | [`user/user-guide/`](user/user-guide/) | [快速上手](user/user-guide/quick-start.md) · [Nginx 部署](user/user-guide/nginx.md) · [PPT 模板](user/user-guide/ppt-templates.md) |
-| [`user/deploy/`](user/deploy/) | [Docker 构建](user/deploy/Docker-build.md) · [Docker 部署](user/deploy/Docker-deploy.md) |
-| [`user/admin/`](user/admin/) | [备份恢复](user/admin/backup.md) · [数据库](user/admin/database.md) · [许可证](user/admin/license.md) · [图片清理](user/admin/clean-images.md) |
 
-### 🔧 开发文档 ([`dev/`](dev/))
-
-| 目录 | 内容 |
-|------|------|
-| [`dev/server/`](dev/server/) | 服务端架构（[RAG](dev/server/rag/) · 产出引擎 · [管理工具](dev/server/manager/)） |
-| [`dev/frontend/`](dev/frontend/) | 前端安装与配置 |
-| [`dev/model_server/`](dev/model_server/) | 模型推理网关 API |
-| [`dev/deploy/`](dev/deploy/) | [PyInstaller 打包](dev/deploy/pack.md) · [跨平台](dev/deploy/cross-platform.md) · [pysqlcipher3 编译](dev/deploy/pysqlcipher3-build.md) |
-| [`dev/security/`](dev/security/) | 威胁模型与安全分析 |
-| [`dev/ref/`](dev/ref/) | 外部参考与研究 |
-
-### 💼 商业文档 ([`market/`](market/))
-
-| 目录 | 内容 |
-|------|------|
-| [`market/`](market/) | [定价策略](market/pricing-and-feature-restriction.md) · [商业计划](market/business-plan-2026.md) · [宣传文案](market/advertise.md) |
 
 ---
 
