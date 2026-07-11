@@ -2,79 +2,135 @@
 [![English](https://img.shields.io/badge/lang-English-blue)](README.md)
 [![中文](https://img.shields.io/badge/语言-中文-red)](README_zh.md)
 
-# Omni-note 
-Omni-note 是一款多模态的AI笔记，能处理文本、语音、图片、视频等多种模态的数据，可以提供笔记知识库的问答检索服务，可以提供多种MCP智能体协同办公的服务，是一个一站式的智能化办公平台。
+# OmniNote — 你的本地 AI 知识大脑
+
+> **多模态笔记 × Graph RAG × 9 种产出引擎 × MCP 智能体**
+> 100% 本地部署，数据不出你的电脑。
 
 ---
 
-**✨ 核心功能：智能高效，开箱即用**
-- 1 实时内容生成: 前端命令框输入提示词，后端智能调度大模型，流式输出响应，实现毫秒级实时交互。
-- 2 视觉驱动文案创作: 基于图像识别技术，精准提取图片信息（如旅游场景），按需生成高质量文案，赋能创意办公。
-- 3 专业语音转写: 支持超长音频识别（会议录音/课堂笔记），高精度转写文字，满足笔记录音场景的刚需。
-- 4 本地即时创图: 无需高算力设备，纯CPU即可高效推理，快速生成大尺寸图像，随时随地实现轻量化创作。
-- 5 智能知识库管理: 集成笔记总结、语义化查询与问答复习功能，一键检索资料，提升知识复用效率。
-- 6 可扩展智能体平台: 基于MCP协议的可扩展智能体架构，支持丰富的AI助手扩展（如客服/写作/数据分析），灵活适配企业或个人需求。
-- 7 模型自由切换: 笔记与模型解耦设计，无缝兼容OpenAI API等主流服务，一键切换模型，降低使用门槛。
-  
+## 为什么选择 OmniNote？
 
-**🛡️ 核心优势：强大安全，得心应手**
-- 1 强大多模态处理
-支持文本、语音、图片、视频全类型数据，高度自动化处理；知识库问答精准高效，资料查找与复习便捷无忧。
-- 2 极致安全保障
-100%本地化部署: 无需联网，数据库与前端端到端加密，数据完全私有，杜绝云端泄露风险，适合敏感场景（如金融、医疗）。
-- 3 超低算力需求
-纯CPU即可流畅运行，基于高精度低比特量化技术，推理速度提升50%+，老旧设备也能高效处理AI任务。
-- 4 灵活部署架构
-C/S架构支持三重部署： 
-    - 个人电脑：单机私有化，即装即用； 
-    - 局域网：企业内网方案，多人协同办公； 
-    - 云端协同：端云混合部署，跨平台适配手机/平板/电脑，数据无缝同步。
-- 5 高度可扩展性
-通过基于MCP协议扩展AI能力（如智能招聘、数据分析、财务报表），按场景自由切换，无需开发。
-- 6 标准化API兼容
-统一接口适配行业主流服务，无缝集成现有生态:
+| | OmniNote | 传统笔记 | 云端 AI 笔记 |
+|---|:---:|:---:|:---:|
+| 数据隐私 | ✅ 100% 本地，端到端加密 | ✅ 本地存储 | ❌ 上传云端 |
+| 多模态理解 | ✅ 文本/图片/音频/视频 | ❌ 纯文本 | ⚠️ 部分支持 |
+| 知识图谱检索 | ✅ Graph RAG 三路融合 | ❌ 无 | ❌ 无 |
+| 结构化产出 | ✅ 9 种引擎（报告/导图/PPT…） | ❌ 无 | ⚠️ 有限 |
+| AI 智能体 | ✅ MCP 协议，无限扩展 | ❌ 无 | ❌ 无 |
+| 算力要求 | ✅ 纯 CPU 即可运行 | ✅ 低 | — |
 
-功能模块	| API标准
-|-|-|
-视觉语言模型 |	OpenAI API格式
-语音识别	 | FUNASR API格式
-图像生成	 | Stable Diffusion API格式
-嵌入模型	 | OpenAI Embedding API格式
-重排模型	 | Jina AI Rerank API格式
+---
+
+## ✨ 核心能力
+
+### 🧠 Graph RAG 知识库
+
+基于 **BM25 关键词 + 向量语义 + 知识图谱** 三路 RRF 融合检索，配合实体抽取与社区聚类，让笔记不再只是"存"，而是真正"懂"。
+
+- 自适应分块（parent-child 层级）
+- 多知识库隔离管理
+- ReAct Agent 智能编排，自动拆解复杂问题
+
+### 📝 9 种结构化产出引擎
+
+一键将知识库内容转化为生产力交付物：
+
+| 引擎 | 产出 | 引擎 | 产出 |
+|------|------|------|------|
+| 📊 研究报告 | Markdown 长文 | 🗺️ 思维导图 | Markmap 可视化 |
+| 🃏 学习闪卡 | 记忆卡片 | 📋 测验题 | 自测 Quiz |
+| 📰 信息图 | 可视化海报 | 📖 Wiki | 知识库页面 |
+| 📑 PPT 大纲 | .pptx 演示文稿 | 🎙️ 播客 | 音频（规划中） |
+| 🎬 视频 | 视频（规划中） | | |
+
+### 🤖 MCP 智能体平台
+
+基于 MCP（Model Context Protocol）协议的开放架构，接入天气、火车票、Excel 等各类第三方工具，一个对话框调度一切。
+
+### 🔀 模型自由切换
+
+笔记与模型完全解耦，兼容 OpenAI API 格式，一键切换：
+
+| 能力 | API 标准 | 默认模型 |
+|------|----------|----------|
+| 视觉语言模型 | OpenAI Chat | Qwen3.5-4B |
+| 嵌入模型 | OpenAI Embedding | Qwen3-Embedding-0.6B |
+| 重排模型 | Jina Rerank | Qwen3-Reranker-0.6B |
+| 图像生成 | Stable Diffusion | Tiny-SD |
+| 语音识别 | FunASR | Paraformer-large |
+
+---
+
+## 🛡️ 安全与性能
+
+- **100% 本地部署** — 无需联网，数据库端到端 SQLCipher 加密，数据完全私有
+- **纯 CPU 推理** — 基于低比特量化技术，推理速度提升 50%+，老旧设备也能跑 AI
+- **灵活部署** — 单机即装即用 / 局域网多人协同 / Docker 容器化
+
+---
+
+## 🚀 快速开始
+
+```bash
+# 解压
+tar -xf omni-note-linux-x64.tar.xz
+
+# 启动主程序
+chmod a+x ./OmniNote && ./OmniNote
+
+# 浏览器访问
+open http://localhost:7000
+```
+
+详细部署指南请参阅 [📖 快速上手](user/user-guide/quick-start.md)
 
 ---
 
 ## 🏆 荣誉
 
-- **Arm 2024 人工智能创新应用大赛**
-https://live.photoplus.cn/live/pc/54153061/#/live
-
-
-<img width="20%" height="20%" alt="arm优秀奖" src="https://github.com/user-attachments/assets/2cf0f787-35ae-48a4-877b-952173c55fed" />
-
-- **Intel 2025 人工智能创新应用大赛** 
-https://live.photoplus.cn/live/pc/50790205/#/live
-
-<img width="20%" height="20%" alt="GBAC250800956841" src="https://github.com/user-attachments/assets/8cb7153b-3d58-43f8-8e34-bdfc458cf7de" />
-
-<img width="20%" height="20%" alt="GBAC250800852950" src="https://github.com/user-attachments/assets/da9ff319-a2e7-4d56-9d6f-228f0be92cad" />
-
-
+- **Arm 2024 人工智能创新应用大赛优秀奖**
+- **Intel 2025 人工智能创新应用大赛优胜奖**
+- **联想冠名顶级赞助商特别奖**
+- **高通骁龙人工智能大赛优秀奖**
 
 ---
 
+## 📚 文档导航
 
-## 🌐 关于我们
-| | |
-|-|-|
-|web | https://turingevo.com
-|blog | https://turingevo.blog.csdn.net
-|org | https://github.com/turingevo
-|huggingface | https://huggingface.co/turingevo
+### 👤 用户文档 ([`user/`](user/))
+
+| 目录 | 内容 |
+|------|------|
+| [`user/user-guide/`](user/user-guide/) | [快速上手](user/user-guide/quick-start.md) · [Nginx 部署](user/user-guide/nginx.md) · [PPT 模板](user/user-guide/ppt-templates.md) |
+| [`user/deploy/`](user/deploy/) | [Docker 构建](user/deploy/Docker-build.md) · [Docker 部署](user/deploy/Docker-deploy.md) |
+| [`user/admin/`](user/admin/) | [备份恢复](user/admin/backup.md) · [数据库](user/admin/database.md) · [许可证](user/admin/license.md) · [图片清理](user/admin/clean-images.md) |
+
+### 🔧 开发文档 ([`dev/`](dev/))
+
+| 目录 | 内容 |
+|------|------|
+| [`dev/server/`](dev/server/) | 服务端架构（[RAG](dev/server/rag/) · 产出引擎 · [管理工具](dev/server/manager/)） |
+| [`dev/frontend/`](dev/frontend/) | 前端安装与配置 |
+| [`dev/model_server/`](dev/model_server/) | 模型推理网关 API |
+| [`dev/deploy/`](dev/deploy/) | [PyInstaller 打包](dev/deploy/pack.md) · [跨平台](dev/deploy/cross-platform.md) · [pysqlcipher3 编译](dev/deploy/pysqlcipher3-build.md) |
+| [`dev/security/`](dev/security/) | 威胁模型与安全分析 |
+| [`dev/ref/`](dev/ref/) | 外部参考与研究 |
+
+### 💼 商业文档 ([`market/`](market/))
+
+| 目录 | 内容 |
+|------|------|
+| [`market/`](market/) | [定价策略](market/pricing-and-feature-restriction.md) · [商业计划](market/business-plan-2026.md) · [宣传文案](market/advertise.md) |
 
 ---
 
-## 📬 联系我们
+## 🌐 联系我们
+
 | | |
-|-|-|
-|email | wmx@turingevo.com 
+|---|---|
+| 🌍 官网 | https://turingevo.com |
+| 📝 博客 | https://turingevo.blog.csdn.net |
+| 💻 GitHub | https://github.com/turingevo |
+| 🤗 Hugging Face | https://huggingface.co/turingevo |
+| 📧 邮箱 | wmx@turingevo.com |
