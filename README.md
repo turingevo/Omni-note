@@ -8,6 +8,13 @@
 > 100% local deployment. Your data never leaves your machine.
 
 ---
+demo :
+
+![](turingevo.com-OmniNote-1.png)
+
+![](turingevo.com-OmniNote-2.png)
+
+---
 
 ## Why OmniNote?
 
