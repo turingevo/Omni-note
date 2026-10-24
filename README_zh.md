@@ -8,6 +8,13 @@
 > 100% 本地部署，数据不出你的电脑。
 
 ---
+demo :
+
+![](turingevo.com-OmniNote-1.png)
+
+![](turingevo.com-OmniNote-2.png)
+
+---
 
 ## 为什么选择 OmniNote？
 
