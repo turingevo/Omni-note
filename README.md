@@ -1,6 +1,6 @@
 
-[![English](https://img.shields.io/badge/lang-English-blue)](README.md)
-[![中文](https://img.shields.io/badge/语言-中文-red)](README_zh.md)
+[![English](https://img.shields.io/badge/lang-English-blue)](README_en.md)
+[![中文](https://img.shields.io/badge/语言-中文-red)](README.md)
 
 # OmniNote — 你的本地 AI 知识大脑
 
